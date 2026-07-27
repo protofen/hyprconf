@@ -1,0 +1,10 @@
+sudo pacman -Syu
+sudo pacman -S code waybar hyprlauncher git flatpak libreoffice-still wine wine-mono wine-gecko python python-pip hyprpaper
+sudo pacman -S --needed base-devel git
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+cd ..
+rm -rf yay
+yay
+yay -S google-chrome
