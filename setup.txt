@@ -1,5 +1,5 @@
 sudo pacman -Syu
-sudo pacman -S code waybar hyprlauncher git flatpak libreoffice-still wine wine-mono wine-gecko python python-pip hyprpaper mpv nwg-look nwg-displays fastfetch brightnessctl
+sudo pacman -S code waybar hyprlauncher git flatpak libreoffice-still wine wine-mono wine-gecko python python-pip hyprpaper mpv nwg-look nwg-displays fastfetch brightnessctl pipewire pipewire-pulse pipewire-alsa pipewire-jack wireplumber sof-firmware alsa-ucm-conf alsa-firmware alsa-utils
 sudo pacman -S --needed base-devel git
 git clone https://aur.archlinux.org/yay.git
 cd yay
