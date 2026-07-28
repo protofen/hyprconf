@@ -8,3 +8,4 @@ cd ..
 rm -rf yay
 yay
 yay -S google-chrome
+python -m venv .venv
